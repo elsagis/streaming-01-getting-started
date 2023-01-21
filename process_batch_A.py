@@ -13,8 +13,14 @@ also called 'file-like objects' or 'streams'.
 What makes streaming different is the input data is unbounded.
 
 """
-
 import csv
+
+# Set base variables to be used throughout code.
+BASE_FILE = 'batchfile_0_farenheit.csv'
+
+# Three part method class to convert farenheit to celcius, celcius to kelvin, 
+# then kelvin to farenheit.
+
 
 # Declare a variable to hold the input file name
 input_file_name = "batchfile_0_farenheit.csv"
